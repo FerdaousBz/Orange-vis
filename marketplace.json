@@ -1,5 +1,5 @@
 {
-    "label": "My Custom Visualization",
+    "label": "My Custom Orange Visualization",
     "category_label": "Custom Visualizations",
     "branding": {
       "image_uri": "https://example.com/my-custom-visualization-icon.png",
@@ -7,11 +7,11 @@
     },
     "constants": {
       "VIS_LABEL": {
-        "label": "My Custom Visualization",
+        "label": "My Custom Orange Visualization",
         "description": "This label will appear in the visualization selector in the Looker Explore UI."
       },
       "VIS_ID": {
-        "label": "My_Custom_Visualization_ID",
+        "label": "My_Custom_Orange_Visualization_ID",
         "description": "This ID must be unique across all custom visualizations on your instance.",
         "value_constraint": "visualization"
       }
