@@ -1,4 +1,4 @@
-project_name: "viz-liquid_fill_gauge-marketplace"
+project_name: "orange_vis_looker_custom"
 
 constant: VIS_LABEL {
   value: "Orange-Vis-Looker"
