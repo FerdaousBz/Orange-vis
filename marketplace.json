@@ -1,0 +1,20 @@
+{
+    "label": "My Custom Visualization",
+    "category_label": "Custom Visualizations",
+    "branding": {
+      "image_uri": "https://example.com/my-custom-visualization-icon.png",
+      "tagline": "A custom visualization using JavaScript for Looker."
+    },
+    "constants": {
+      "VIS_LABEL": {
+        "label": "My Custom Visualization",
+        "description": "This label will appear in the visualization selector in the Looker Explore UI."
+      },
+      "VIS_ID": {
+        "label": "My_Custom_Visualization_ID",
+        "description": "This ID must be unique across all custom visualizations on your instance.",
+        "value_constraint": "visualization"
+      }
+    }
+  }
+  
