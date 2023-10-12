@@ -1,4 +1,4 @@
-looker.plugins.visualizations.create({
+const visObject = {
   options: {
     first_option: {
       type: "string",
@@ -10,13 +10,11 @@ looker.plugins.visualizations.create({
       label: "My Second Option",
       default: 42,
     },
-
-    
   },
   create: function (element, config) {
     element.innerHTML = "<h1>Ready to render!</h1>";
   },
-
+  
   updateAsync: function (
     data,
     element,
@@ -40,7 +38,7 @@ looker.plugins.visualizations.create({
         var firstNodeKey = item[firstKey];
         var secondNodeKey = item[secondKey];
 
-        let index = groupsMap.findIndex((elt) => elt === groupNodeKey);
+        let index = groupsMap?.findIndex((elt) => elt === groupNodeKey);
 
         if (index < 0) {
           groupsMap.push(groupNodeKey);
@@ -114,4 +112,6 @@ looker.plugins.visualizations.create({
     var network = new vis.Network(element, content, options);
     doneRendering();
   },
-});
+};
+
+looker.plugins.visualizations.add(visObject);
