@@ -14,7 +14,6 @@ visualization: {
   id: "@{VIS_ID}"
   url: "https://raw.githubusercontent.com/PedramReact/TestOrgVis/main/NewGraph.js"
   label: "@{VIS_LABEL}"
-  category:""
   extension: js
   custom: yes
   options:{
