@@ -110,8 +110,10 @@ const visObject = {
     };
 
     var network = new vis.Network(element, content, options);
+    element.innerHTML = network;
     doneRendering();
   },
+
 };
 
 looker.plugins.visualizations.add(visObject);
