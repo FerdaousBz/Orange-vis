@@ -12,8 +12,7 @@
       },
       "VIS_ID": {
         "label": "My_Custom_Orange_Visualization_ID",
-        "description": "This ID must be unique across all custom visualizations on your instance.",
-        "value_constraint": "visualization"
+        "description": "This ID must be unique across all custom visualizations on your instance."
       }
     }
   }
