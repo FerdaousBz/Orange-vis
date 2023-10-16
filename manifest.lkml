@@ -12,9 +12,9 @@ constant: VIS_ID {
 
 visualization: {
   id: "@{VIS_ID}"
-  url: "https://raw.githubusercontent.com/marketplace-api.looker.com/viz-dist/liquid_fill_gauge.js"
+  url: "https://github.com/FerdaousBz/Orange-vis/blob/main/graph.js"
   dependencies: ["https://code.jquery.com/jquery-2.2.4.min.js","https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js","https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"]
   extension: "js"
-  custom: yes
+  custom: true
   }
 
