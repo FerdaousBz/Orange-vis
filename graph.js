@@ -109,8 +109,9 @@ const visObject = {
       },
     };
 
-    var network = new vis.Network(element, content, options);
-    element.innerHTML = network;
+    const visual = document.getElementById("vis")
+    var network = new vis.Network(visual, content, options);
+
     doneRendering();
   },
 
