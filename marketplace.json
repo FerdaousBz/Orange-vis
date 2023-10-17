@@ -13,7 +13,7 @@
     "VIS_ID": {
       "label": "Visualization ID",
       "description": "This ID must be unique across all custom visualizations on your instance.",
-      "value_constraint": "visualization"
+      "value_constraint": "visualization" 
     }
   }
 }
