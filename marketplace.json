@@ -2,19 +2,18 @@
   "label": "orange-vis-labell",
   "category_label": "visualization",
   "branding": {
-    "image_uri": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIE4w2uBXnwVuAkX3c18Ev6nqrZR-Ki_nJ8j6lt0U&s",
+    "image_uri": "https://your-own-image-server.com/your-image.png",
     "tagline": "Calculate your progress."
   },
-
-    "constants": {
-        "VIS_LABEL": {
-            "label": "Visualization Label",
-            "description": "This label will appear in the visualization selector in the Looker Explore UI."
-        },
-        "VIS_ID": {
-            "label": "Visualization ID_222222222222222",
-            "description": "This ID must be unique across all custom visualizations on your instance.",
-            "value_constraint": "visualization"
-        }
+  "constants": {
+    "VIS_LABEL": {
+      "label": "Visualization Label",
+      "description": "This label will appear in the visualization selector in the Looker Explore UI."
+    },
+    "VIS_ID": {
+      "label": "Visualization ID",
+      "description": "This ID must be unique across all custom visualizations on your instance.",
+      "value_constraint": "visualization"
     }
+  }
 }
