@@ -1,4 +1,4 @@
-project_name: "test"
+project_name: "orange-dashboard-looker"
 
 # # Use local_dependency: To enable referencing of another project
 # # on this instance with include: statements
