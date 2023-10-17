@@ -7,18 +7,18 @@ project_name: "orange-dashboard-looker"
 #   project: "name_of_other_project"
 # }
 constant: VIS_LABEL {
-  value: "orange-vis-labell"
+  value: "custom-vis-orange-label"
   export: override_optional
 }
 constant: VIS_ID {
-  value: "orange-vis-id"
+  value: "custom-vis-orange-id"
   export:  override_optional
 }
 visualization: {
-  id: "{{VIS_ID}}"
-  url: "https://github.com/FerdaousBz/Orange-vis.git"
+  id: "@{VIS_ID}"
+  url: "https://storage.cloud.google.com/org_viz_js/js_looker/graph1710.js"
   # sri_hash: "59d48907f248007aff0407562b86514ec095b77b"
-  label: "{{VIS_LABEL}}"
-  dependencies: ["https://code.jquery.com/jquery-2.2.4.min.js","https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js","https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"]
+  label: "@{VIS_LABEL}"
+  #dependencies: ["https://code.jquery.com/jquery-2.2.4.min.js","https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js","https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"]
 
 }
